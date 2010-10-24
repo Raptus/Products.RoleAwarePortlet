@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0b1'
+version = '1.0b2'
 
 setup(name='Products.RoleAwarePortlet',
       version=version,
@@ -21,7 +21,7 @@ setup(name='Products.RoleAwarePortlet',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['Products'],
       include_package_data=True,
-      zip_safe=True,
+      zip_safe=False,
       install_requires=[
           'setuptools',
           'plone.namedfile[blobs]',
